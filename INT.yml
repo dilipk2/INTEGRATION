@@ -1,8 +1,8 @@
 language: c
-	sudo: false # only for faster builds
-	compiler:
-	   -clang
-	   -gcc
-	script:
-	  - clang -coverage -O0 integration.c -o integration
-	  - ./integration
+  sudo: false # only for faster builds
+  compiler:
+    -clang
+    -gcc
+  script:
+    - clang -coverage -O0 integration.c -o integration
+    - ./integration
